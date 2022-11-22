@@ -104,7 +104,7 @@ body {
   align-items: center;
 
   font-family: inherit;
-  transition: 1s all ease-in;
+  transition: 200ms all ease-in;
 }
 
 .button:hover {
