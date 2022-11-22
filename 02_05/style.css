@@ -116,3 +116,8 @@ body {
   background-color: rgb(221, 221, 221);
   color: black;
 }
+.button:focus-visible,
+a:focus-visible {
+  outline: 3px solid transparent;
+  box-shadow: red 0px 0px 0px 4px;
+}
