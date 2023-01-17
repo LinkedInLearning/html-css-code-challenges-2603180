@@ -1,47 +1,46 @@
-# [DE-Kursname hier eintragen]
+# Code-Challenges für HTML
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für HTML`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![COURSENAME][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![image](https://user-images.githubusercontent.com/61017085/212898718-75ec58a2-481f-4d7d-a3b5-a620d2c8afbc.png) 
 
-[COURSEDESCRIPTION]
+Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen, mit denen Sie Ihre vorhandenen HTML-Skills testen oder weitere neu hinzulernen können. Die 15 Aufgaben zum Thema semantisches HTML und Gestaltung mit CSS sind typisch bei der Erstellung einer Webseite.<br><br>
 
-## Anleitung
+Zu jeder Aufgabe liefert Ihre Trainerin Florence Maurice gleich die passende Lösung, doch können Sie Ihren Lösungsweg auch ganz leicht mitprogrammieren und testen, denn dieser Kurs zeichnet sich durch eine nahtlose Integration in GitHub Codespaces, einer cloudbasierten Entwicklungsumgebung (IDE), aus. Sie müssen keinen lokalen Rechner einrichten und können direkt zu jeder Zeit praktische Übungen durchführen. Die Installation und Aktivierung der Sandbox wird zum Start des Kurses ausführlich dargestellt. Da jede Aufgabe in sich abgeschlossen ist, können Sie den Kurs in beliebiger Reihenfolge und in Ihrem eigenen Tempo absolvieren.
 
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
+So rätseln Sie mit:
+1. Sehen Sie sich im Kurs auf LinkedIn Learning die Aufgabenstellung an
+2. Wechseln Sie in den Branch *main* und öffnen Sie die passenden Datei im Order *test*
+3. Geben Sie Ihren Antwortcode an der ausgewiesenen Stelle ein
+4. Starten Sie das Testframework im Hauptverzeichnis mit dem Befehl ``npm run test challenges/<name_der_datei.js>``
 
 ## Branches
+Dieses Repository hat zwei Branches: *main* und *solutions*. Im main-Branch finden Sie alle Übungsdateien im Unterordner test. Diese Übungsdateien enthalten das Grundgerüst, um die Programmierrätsel zu lösen, insbesondere die Tests, die bestanden werden müssen. 
 
-Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
+Im Branch *solutions* finden Sie die fertigen Lösungen des Autors Thomas Rose, samt aller Tests aus dem main-Branch.
 
 ## Installation
 
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+Um die Übungsdateien nutzen zu können und selbst mitzucoden, können Sie GitHub Codespaces nutzen oder das Repository klonen und alle Abhängigkeiten selbst installieren.
 
+### Codespaces (empfohlen)
+Um mitzurätseln und die Aufgaben selbst zu lösen, legen Sie sich einen eigenen Codespace für den Branch main an. Dazu benötigen Sie einen github-Account.
+
+1. Klicken Sie auf den Button *Code*, dann auf *Codespaces* und schließlich auf *Create codespace on main*.
+
+### Ohne Codespaces
+1. Installieren Sie git
+2. Installieren Sie node
+3. Klonen Sie das Repository
+4. Führen Sie im Terminal ``npm install`` aus, um die nötigen Abhängigkeiten zu installieren.
 ### Autor
 
-**[Name hier eintragen]**
+**Florence Maurice**
 
-_[Berufsbezeichnung hier eintragen]_
+_Trainerin und Autorin für Webtehmen_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/florence-maurice) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-html
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
