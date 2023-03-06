@@ -2,7 +2,7 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für HTML`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![image](https://user-images.githubusercontent.com/61017085/212898718-75ec58a2-481f-4d7d-a3b5-a620d2c8afbc.png) 
+![COURSENAME][lil-thumbnail-url] 
 
 Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen, mit denen Sie Ihre vorhandenen HTML-Skills testen oder weitere neu hinzulernen können. Die 15 Aufgaben zum Thema semantisches HTML und Gestaltung mit CSS sind typisch bei der Erstellung einer Webseite.<br><br>
 
@@ -43,4 +43,4 @@ Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linke
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-html
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQEoZHUzrGKvUg/learning-public-crop_675_1200/0/1674466914608?e=2147483647&v=beta&t=KstL52sFCRLp35kVeBTxEPelaXd6L_tPnOjgqE14ABk
